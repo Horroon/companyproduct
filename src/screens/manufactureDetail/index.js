@@ -4,14 +4,14 @@ import "./index.scss";
 import { useParams } from "react-router";
 import { FetchModal } from "../../asyncs/fetchmodals";
 import { Search } from "../../components";
+import { Link } from "react-router-dom";
 
 const columns = [
   {
     title: "Id",
     dataIndex: "id",
     key: "id",
-  }
-  ,
+  },
   {
     title: "Name",
     dataIndex: "name",
@@ -60,7 +60,10 @@ export default function ManufactureDetail() {
 
   return (
     <div className="detail">
-      <h5>{modal.modal}</h5>
+      <Link to="/" className="back-btn">
+        Go Back
+      </Link>
+      <h5 className="title">{modal.modal}</h5>
       <h6>Available cars</h6>
       <Search
         placeholder="Search car by name"
@@ -68,7 +71,6 @@ export default function ManufactureDetail() {
         value="name"
         options={modal.cars}
         onChange={(e) => {
-          debugger;
           setSearch(e);
         }}
       />
