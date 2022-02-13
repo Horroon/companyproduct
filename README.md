@@ -1,4 +1,8 @@
 ## Project info
+<ul>
+  <li>npm install</li>
+  <li>npm start</li>
+</ul>
 
 ### run npm i
 ### start project by npm start
