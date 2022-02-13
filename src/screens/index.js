@@ -9,7 +9,6 @@ export default function Mainscreen() {
     <div>
       <Header />
       <Routerscreen />
-      <Footer />
     </div>
   );
 }
