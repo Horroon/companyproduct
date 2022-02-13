@@ -28,9 +28,7 @@ export const Search = ({
     >
       <Option value="">All</Option>
       {options.map((option) => (
-        <Option key={option[value]} value={option[value]}>
-          {option[label]}
-        </Option>
+        <Option value={option[value]}>{option[label]}</Option>
       ))}
     </Select>
   );

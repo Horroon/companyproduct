@@ -1,0 +1,119 @@
+[
+    {
+        "key": "ksjdfkj3jw42342134",
+        "modal": "Ford",
+        "city": "New York",
+        "country": "US",
+        "cars": [
+            {
+                "id": 1,
+                "name": "Focus",
+                "condition": "New"
+            },
+            {
+                "id": 2,
+                "name": "Escape",
+                "condition": "used"
+            },
+            {
+                "id": 3,
+                "name": "Fiesta",
+                "condition": "New"
+            }
+        ]
+    },
+    {
+        "key": "bskdfhk32452930werw",
+        "modal": "Honda",
+        "country": "PK",
+        "city": "Lahore",
+        "cars": [
+            {
+                "id": 1,
+                "name": "Fit",
+                "condition": "New"
+            },
+            {
+                "id": 2,
+                "name": "Accord",
+                "condition": "used"
+            },
+            {
+                "id": 3,
+                "name": "Civic",
+                "condition": "New"
+            },
+            {
+                "id": 4,
+                "name": "Pilot",
+                "condition": "New"
+            },
+            {
+                "id": 5,
+                "name": "CR-V",
+                "condition": "New"
+            }
+        ]
+    },
+    {
+        "key": "asjdfowjskj349ewxmc",
+        "modal": "Toyota",
+        "country": "IND",
+        "city": "Dubai",
+        "cars": [
+            {
+                "id": 1,
+                "name": "Camry",
+                "condition": "New"
+            },
+            {
+                "id": 2,
+                "name": "Tacoma",
+                "condition": "used"
+            },
+            {
+                "id": 3,
+                "name": "Prius",
+                "condition": "New"
+            },
+            {
+                "id": 4,
+                "name": "Corolla",
+                "condition": "New"
+            }
+        ]
+    },
+    {
+        "key": "lasdjflkjdkals34weew",
+        "modal": "Hyundai",
+        "city": "Riaz",
+        "country": "Saud-i-Arab",
+        "cars": [
+            {
+                "id": 1,
+                "name": "Santa Fe",
+                "condition": "New"
+            },
+            {
+                "id": 2,
+                "name": "Tuscon",
+                "condition": "used"
+            },
+            {
+                "id": 3,
+                "name": "Elantra",
+                "condition": "New"
+            },
+            {
+                "id": 4,
+                "name": "Kona",
+                "condition": "New"
+            },
+            {
+                "id": 5,
+                "name": "Sonata",
+                "condition": "New"
+            }
+        ]
+    }
+]
